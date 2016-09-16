@@ -1,0 +1,317 @@
+<!doctype html>
+ <html> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Car Advisor ">
+    <meta name="author" content="">
+
+    <title>Car Advisor</title>
+
+     
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	
+	
+    
+    <link href="css/general.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	
+	<link href="css/magnific-popup.css" rel="stylesheet"> 
+	
+	<script src="js/modernizr-2.8.3.min.js"></script>  
+</head>
+
+<body id="home">
+
+
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	
+    <div class="intro-header" id="intro" >
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.8s">Find the perfect car for you</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="1.2s">Just tell us your requirments </h3>
+			
+		</div>    
+        
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#specs"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle page-scroll" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">Car Advisor</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#specs">Find Car</a></li>
+					<li class="menuItem"><a href="#screen">Upcoming Cars</a></li>
+					<li class="menuItem"><a href="#contact">Contact Us</a></li>
+				</ul>
+			</div>  
+		   
+		</div>
+	</nav> 
+	<form action="out.php" method="POST" id="inputs">
+	<div id="specs" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Specification</h2>
+				<p class="lead" style="margin-top:0">Tell us what you are looking for</p>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="image/fuel.png" alt="image" height="100" width="100">
+				  <h3>Fuel</h3>
+				  
+
+					<select id="dropdown1" name="fuel1">
+					  <option value="Petrol" selected>Petrol</option>
+					  <option value="Diesel">Diesel</option>
+					</select>
+				 </div>
+
+				 <div class="col-sm-4 wow fadeInDown text-center">
+				  
+				 </div>
+				 <div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="image/seat.png" alt="image" height="120" width="120">
+				  <h3>Seating</h3>
+				  
+
+					<select id="dropdown2" name="seat1">
+					  <option  value="any" selected >No Preference</option>
+					  <option value="4/5">4/5</option>
+					  <option value="6/7">6/7</option>
+					  <option value="8">8</option>
+					</select>
+				 </div> 
+			</div> 
+			<br><br>
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="image/bodystyle.png" alt="image" height="120" width="120">
+				  <h3>Body Style</h3>
+				  
+
+					<select id="dropdown3" name="bodystyle1">
+					  <option  value="any" selected >No Preference</option>
+					  <option value="Sedan">Sedan</option>
+					  <option value="Hatchback">Hatchback</option>
+					  <option value="MPV">MPV</option>
+					  <option value="SUV">SUV</option>
+					</select>
+				</div>
+				<div class="col-sm-4 wow fadeInDown text-center">
+				</div>
+
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="image/class.png" alt="image" height="120" width="120">
+				  <h3>Class</h3>
+				  
+
+					<select id="dropdown4" name="class1">
+					  <option value="Economy" selected>Economy</option>
+					  <option value="Executive">Executive</option>
+					  <option value=Luxury>Luxury</option>
+					 </select>
+				 </div>
+			</div> <!-- row -->
+				
+			
+		</div>
+	</div>
+	<!-- SUBMIT --> <center> <button type="submit" class="btn btn-embossed btn-primary view" form="inputs" value="Submit">Submit</button> </center>
+
+	</form>
+	<div id="specs" vertical-align: top;>
+	</div>
+	
+   
+	<!-- Screenshot -->
+	<div id="screen" class="content-section-b">
+        <div class="container">
+          <div class="row" >
+			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+				<h2>Upcoming Cars</h2>
+				<p class="lead" style="margin-top:0">Launching later this year</p>
+			 </div>
+		  </div>
+		    <div class="row wow bounceInUp" >
+              <div id="owl-demo" class="owl-carousel">
+				
+				<a href="image/gtr.jpg" class="image-link">
+					<div class="item">
+						<img height="380" width="620" class="img-responsive img-rounded" src="image/gtr.jpg" alt="Nissan GTR">
+					</div>
+				</a>
+				
+               <a href="image/volvo.jpg" class="image-link">
+					<div class="item">
+						<img height="380" width="620" class="img-responsive img-rounded" src="image/volvo.jpg" alt="Volvo S90">
+					</div>
+				</a>
+				
+				<a href="image/jag.jpg" class="image-link">
+					<div class="item">
+						<img height="380" width="620" class="img-responsive img-rounded" src="image/jag.jpg" alt="Jaguar XF">
+					</div>
+				</a>
+				
+				<a href="image/gti.jpg"" class="image-link">
+					<div class="item">
+						<img height="380" width="620" class="img-responsive img-rounded" src="image/gti.jpg"" alt="Polo GTi">
+					</div>
+				</a>
+				
+               <a href="image/sq7.jpg"" class="image-link">
+					<div class="item">
+						<img  height="380" width="620" class="img-responsive img-rounded" src="image/sq7.jpg" alt="SQ7">
+					</div>
+				</a>
+              </div>       
+          </div>
+        </div>
+
+
+	</div>
+	
+		
+	
+	
+	<!-- Contact -->
+	<div id="contact" class="content-section-a">
+		<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+			<br>
+				<h2>Contact Us</h2>
+				<p class="lead" style="margin-top:0">Need our HELP?</p>
+			</div>
+			
+				<div class="col-md-6">
+					<div class="form-group">
+						<label><h3><u>Address</u></h3></label>
+						<br>
+						<br>
+
+						XYZ/03 <br>
+							Garden Hill Lane <br>
+							Trivandrum <br>
+							Kerala <br>
+							India <br>
+							PIN : 695001 <br>
+						
+
+					</div>
+					
+				</div>
+			
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+				
+					<h3><u>EMAIL</u></h3>
+					<br>
+					<p class="lead"><b>Consultant</b><br>consultant@caradvisor.netne.net<br></p>
+					<p class="lead"><b>Suggestions and Complaints</b><br>admin@caradvisor.netne.net<br></p>
+					<br>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title"></h3>
+            
+			
+			
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <h1 class="footer-title">Daedalus</h1>
+              <ul>
+                <li>Nikhil Kurian</li>
+                <li>Aditya Nagesh</li>
+                <li>Nikhitha Grace Josh</li>
+                <li>Sujith Thomas </li>
+                <li>Neeraja AS</li>
+                <li>Vaisakh MC</li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script> 
+</body>
+
+</html>
